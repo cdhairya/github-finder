@@ -1,3 +1,4 @@
+import RepoItem from "./RepoItem";
 import PropTypes from "prop-types";
 
 function RepoList({ repos }) {
@@ -9,7 +10,7 @@ function RepoList({ repos }) {
         </h2>
 
         {repos.map((repo) => (
-          <h3 key={repo.id}>{repo.name}</h3>
+          <RepoItem repo={repo} key={repo.id} />
         ))}
       </div>
     </div>
