@@ -6,3 +6,8 @@
     left: -0.75rem;
     top: 0.3rem;
 }
+
+.custom-card-image .card.image-full:before {
+    border-radius: 0.5rem;
+    opacity: 0.65;
+}
